@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_info"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Information" />
+        <item
+            android:id="@+id/nav_reg"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Registration" />
+        <item
+            android:id="@+id/nav_career"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Career Guidance" />
+        <item
+            android:id="@+id/nav_job"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Job Updates" />
+    </group>
+
+    <item android:title="Services">
+        <group android:checkableBehavior="single">
+            <item
+                android:id="@+id/nav_scholar"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Scholarships" />
+            <item
+                android:id="@+id/nav_entrance"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Entrance Updates" />
+            <item
+                android:id="@+id/nav_chat"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Chat with Us" />
+            <item
+                android:id="@+id/nav_stress"
+                android:icon="@drawable/ic_menu_gallery"
+                android:title="Feeling Stressed ??" />
+        </group>
+    </item>
+
+</menu>
